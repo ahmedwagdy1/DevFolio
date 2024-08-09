@@ -1,0 +1,468 @@
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+.section1 {
+    background-image: linear-gradient(rgba(0,0,0,0.3) , #000) ,url(img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.parents {
+    /* --bs-tertiary-bg: red; */
+    background-color: #040404;
+}
+.navbar{
+    z-index: 9999;
+}
+
+
+ .afer a::after {
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    transition: all 0.5s;
+}
+li:hover a::after{
+    width: 60px;
+}
+
+
+.title h1 {
+    font-size: 72;
+}
+
+ /*.title {
+   padding-top: 200;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+.sp1::after {
+    content: "";
+    animation: typing 10s infinite;
+    color: white;
+    display: block;
+    padding-top: 20;
+}
+@keyframes typing {
+    0% {
+        content: " De|";
+    }
+
+    2% {
+        content: " Des|";
+    }
+
+    4% {
+        content: " Desi|";
+    }
+
+    6% {
+        content: " Desig|";
+    }
+
+    8% {
+        content: " Design|";
+    }
+
+    10% {
+        content: " Designe |";
+    }
+
+    12% {
+        content: " Designer|";
+    }
+
+    14% {
+        content: " Designe|";
+    }
+
+    16% {
+        content: " Design|";
+    }
+
+    18% {
+        content: " Desig|";
+    }
+
+    20% {
+        content: " Desi |";
+    }
+
+    22% {
+        content: " Des |";
+    }
+
+    27% {
+        content: " De |";
+    }
+
+    28% {
+        content: " Dev |";
+    }
+
+    29% {
+        content: " Devo |";
+    }
+
+    30% {
+        content: " Devol |";
+    }
+
+    31% {
+        content: " Devolp |";
+    }
+
+    32% {
+        content: " Devolpe |";
+    }
+
+    33% {
+        content: " Devolper |";
+    }
+
+    34% {
+        content: " Devolpe |";
+    }
+
+    35% {
+        content: " Devolp |";
+    }
+
+    36% {
+        content: " Devol |";
+    }
+
+    37% {
+        content: " Devo |";
+    }
+
+    38% {
+        content: " Dev |";
+    }
+
+    39% {
+        content: " De |";
+    }
+
+    45% {
+        content: " Fr |";
+    }
+
+    46% {
+        content: " Fre |";
+    }
+
+    47% {
+        content: " Free |";
+    }
+
+    48% {
+        content: " Freel |";
+    }
+
+    49% {
+        content: " Freela |";
+    }
+
+    50% {
+        content: " Freelan |";
+    }
+
+    51% {
+        content: " Freelanc |";
+    }
+
+    52% {
+        content: " Freelance |";
+    }
+
+    53% {
+        content: " Freelancer |";
+    }
+
+    54% {
+        content: " Freelance |";
+    }
+
+    55% {
+        content: " Freelanc |";
+    }
+
+    56% {
+        content: " Freelan |";
+    }
+
+    57% {
+        content: " Freela |";
+    }
+
+    58% {
+        content: " Freel |";
+    }
+
+    59% {
+        content: " Free |";
+    }
+
+    60% {
+        content: " Fre |";
+    }
+
+    61% {
+        content: " Fr |";
+    }
+
+    62% {
+        content: " F |";
+    }
+
+    67% {
+        content: " p |";
+    }
+
+    68% {
+        content: " ph |";
+    }
+
+    69% {
+        content: " pho |";
+    }
+
+    70% {
+        content: " phot |";
+    }
+
+    71% {
+        content: " Photo |";
+    }
+
+    72% {
+        content: " Photog |";
+    }
+
+    73% {
+        content: " Photogr |";
+    }
+
+    74% {
+        content: " Photogra |";
+    }
+
+    75% {
+        content: " Photograp |";
+    }
+
+    76% {
+        content: " Photograph |";
+    }
+
+    77% {
+        content: " Photographe |";
+    }
+
+    78% {
+        content: " Photographer |";
+    }
+
+    79% {
+        content: " Photographe |";
+    }
+
+    80% {
+        content: " Photograph |";
+    }
+
+    81% {
+        content: " Photograp |";
+    }
+
+    82% {
+        content: " Photogra |";
+    }
+
+    83% {
+        content: " Photogr |";
+    }
+
+    84% {
+        content: " Photog |";
+    }
+
+    85% {
+        content: " Photo |";
+    }
+
+    86% {
+        content: " Phot |";
+    }
+
+    87% {
+        content: " Pho |";
+    }
+
+    88% {
+        content: " Ph |";
+    }
+
+    89% {
+        content: " P |";
+    }
+}
+
+.section{
+    background-color: #F5F5F5;
+}
+
+.h2::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #0078FF;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.h32::after{
+    content: "";
+    width: 50;
+    height: 3px;
+    background-color: #0078FF;
+    position: absolute;
+    top: 100%;
+    left: 0;
+margin: 0 48%;
+}
+
+.section2{
+    background-image: linear-gradient(rgba(0,0,0,0.7) , #09c) , url(img/counters-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding-bottom: 50;
+    border: solid 10px #0078FF;
+    transition: all 0.5s;
+}
+.icon:hover{
+    background-color: #0078FF;
+    border: solid 10px #CDE1F8;
+}
+.icon2{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    font-size: 40;
+    padding: 0;
+    border: solid 10px #CDE1F8;
+    transition: all 0.5s;
+}
+.hov:hover .img1{
+    transform: scale(1.1);
+}
+.img1{
+    transition: all 1s;
+}
+.tit span{
+   color: #0078ff;
+}
+.fa-circle-plus{
+    position: absolute;
+    top: 86%;
+    right: 5%;
+    font-size: 30;
+    color: #0078FF;
+}
+.bbf::after{
+    content: "";
+    width: 50;
+    height: 3px;
+    background-color: #0078FF;
+    position: absolute;
+    top: 100%;
+    left: 0;
+margin: 0 48%;
+}
+.img4 img{
+    width: 200px;
+    height: 200px;
+    /* border-radius: 50%; */
+}
+.section3{
+    background-image: linear-gradient(rgba(0,0,0,0.7) , #0078ff) , url(img/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+.sm-img{
+    width: 32;
+    height: 32;
+    border-radius: 50%;
+    margin-right: 10;
+}
+.row a{
+    text-decoration: none;
+    color: #1e1e1e;
+}
+.row p{
+    color: #4e4e4e;
+}
+.spt .s1{
+    position: absolute;
+    top: 54%;
+    right: 45%;
+}
+.s1{
+    background-color: #0078FF;
+    padding: 5 15;
+    font-size: 12;
+
+}
+button{
+  margin: auto;
+  background-color: #0078FF;
+  border: none;
+  border-radius: 12px;
+  padding: 15 25;
+  margin: 30 0 30 40%;
+ 
+}
+.ic2{
+    border: solid 3px #0078FF;
+    width: 30;
+    padding: 5;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.ic2:hover{
+    border: solid 3px #CDE1F8;
+    background-color: #0078FF;
+}
+.section4{
+    background-image: linear-gradient(rgba(0,0,0,0.7) , #0078ff) , url(img/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+.s span{
+    transform: translateY(50%);
+}
